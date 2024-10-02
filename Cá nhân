@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web của Đặng Thái Nghiệp</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        nav {
+            background-color: #ffb3b3;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 30px;
+        }
+        section h2 {
+            color: #ff6f61;
+        }
+        p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Đặng Thái Nghiệp</h1>
+    <p>Yêu thích Vật lý, Hóa học, và Toán học</p>
+</header>
+
+<nav>
+    <a href="#about">Giới thiệu</a>
+    <a href="#hobbies">Sở thích</a>
+    <a href="#contact">Liên hệ</a>
+</nav>
+
+<section id="about">
+    <h2>Giới thiệu</h2>
+    <p>
+        Xin chào! Tôi là Đặng Thái Nghiệp, 19 tuổi, đến từ Việt Nam. Từ nhỏ, tôi đã có niềm đam mê sâu sắc với khoa học, đặc biệt là các môn Vật lý, Hóa học và Toán học. 
+        Những môn học này không chỉ giúp tôi khám phá thế giới xung quanh mà còn rèn luyện tư duy logic và khả năng giải quyết vấn đề. 
+        Tôi luôn tin rằng khoa học là nền tảng để thay đổi thế giới và là chìa khóa mở ra những chân trời mới.
+    </p>
+</section>
+
+<section id="hobbies">
+    <h2>Sở thích</h2>
+    <p>
+        Bên cạnh niềm đam mê với Vật lý, Hóa học và Toán học, tôi còn thích đọc sách về khoa học tự nhiên, khám phá các công thức toán học mới và thực hành thí nghiệm hóa học. 
+        Tôi cũng thích tham gia các cuộc thi học thuật về các môn khoa học và luôn mong muốn trở thành một nhà nghiên cứu trong tương lai.
+    </p>
+</section>
+
+<section id="contact">
+    <h2>Liên hệ</h2>
+    <p>
+        Nếu bạn muốn trao đổi về Vật lý, Hóa học hoặc Toán học, hãy liên hệ với tôi qua email: <strong>nghiep.physicist@example.com</strong>. Tôi luôn sẵn sàng học hỏi và chia sẻ kiến thức với mọi người.
+    </p>
+</section>
+
+<footer>
+    <p>© 2024 Đặng Thái Nghiệp - Khoa học là tương lai</p>
+</footer>
+
+</body>
+</html>
